@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Teste de javascript</title>
+    </head>
+    <script type="text/javascript">
+
+        let nomeCliente = "Cléber Santos Oliveira";
+        let idCliente = 9;
+        let produto = "Cabo HDMI";
+
+        const preco = 299.59;
+        let quantidade = 2;
+        let resultado = quantidade * preco;
+
+        console.log("Olá Sr(a) " +nomeCliente+ ", seu ID de usuário é: " +idCliente);
+        console.log("O produto selecionado foi: " +produto);
+        console.log("O preço individual é R$: " +preco);
+        console.log("A quantidade solicitada foi de " +quantidade+ " unidades");
+        console.log("O total a pagar é: " +resultado);
+
+    </script>
+</html>
