@@ -1,2 +1,2 @@
 # Estudo-Js
-estudando lógicas com o JavaScript
+estudando lógicas e aplicações com o JavaScript
