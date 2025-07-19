@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf8">
+    <meta name="viewport" cotent="width=device-width, initial-scale=1">
+    <title>Switch Case</title> 
+  </head>
+  <body>
+    <script type="text/javascript">
+
+      let valorCompra = prompt ("insira o valor da compra");
+      valorCompra= Number (valorCompra);
+      let case100 =valorCompra/100*10;
+      let resultado100= valorCompra-case100;
+
+      let case200=valorCompra/100*20;
+      let resultado200= valorCompra-case200;
+
+      let case300=valorCompra/100*30;
+      let resultado300= valorCompra-case300;
+
+      switch(valorCompra){
+        case 100:
+        document.write("O valor de compra foi: R$" +valorCompra+"<br />");
+        document.write("A faixa de desconto é de 10%"+"<br />");
+        document.write("O valor do desconto é: R$" +case100+"<br />")
+        document.write("Total a pagar: R$" +resultado100);
+        break;
+        
+        case 200:
+        document.write("O valor de compra foi: R$" +valorCompra+"<br />");
+        document.write("A faixa de desconto é de 20%"+"<br />");
+        document.write("O valor do desconto é: R$" +case200+"<br />")
+        document.write("Total a pagar: R$" +resultado200);
+        break;
+
+        case 300: 
+        document.write("O valor de compra foi: R$" +valorCompra+"<br />");
+        document.write("A faixa de desconto é de 30%"+"<br />");
+        document.write("O valor do desconto é: R$" +case300+"<br />")
+        document.write("Total a pagar: R$" +resultado300);
+        break;
+
+        default:
+        document.write("Valor não encontrado, por favor tente novamente");
+      }
+      
+     </script>
+
+  </body>
+</html>
